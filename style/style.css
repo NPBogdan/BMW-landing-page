@@ -1,0 +1,207 @@
+body{
+    margin: 0px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Header */
+.header{
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 10px 170px;
+    padding-bottom: 70px;
+}
+
+.headerTop{
+    display:flex;
+    justify-content:space-between;
+}
+
+.headerLink{
+    display: flex;
+    gap:20px;
+}
+
+.headerL a{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+#logo{
+    border-radius: 20%;
+}
+
+.headerBottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerBottom h1{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+}
+
+.headerBottom p{
+    font-size: 18px;
+    color: #E5E7Eb;
+}
+
+.headerBottom button{
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: #3882F6;
+    color: #E5E7Eb;
+    width: 200px;
+}
+
+.headerBottomTop{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.headerBottomBottom img{
+    border-radius: 5%;
+}
+
+/* Section 1 */
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 170px;
+    padding-bottom: 70px;
+    background-image: linear-gradient(to bottom right, #fff1eb, #ace0f9);;
+}
+
+.section1 ul{
+    display: flex;
+    gap:60px;
+}
+
+
+.section1 ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.section1 ul li img{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    border-style:solid;
+    border-color:#3882F6;
+}
+
+.section1 header p{
+    font-size:36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+/* Section 2 */
+
+.section2{
+    display:flex;
+    gap: 20px;
+    padding-left: 10px;
+    padding-bottom: 70px;
+    background-image: url("../images/bmw-face-danger.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+.carListHeader{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.carListHeader{
+    font-size: 40px;
+    font-weight: 600;
+    padding-left: 20px;
+    color: #F9FAF8;
+}
+
+.carList{
+    padding: 10px;
+    color: #F9FAF8;
+}
+
+.carListItem{
+    display: flex;
+    flex-direction: column;
+    border-style: outset;
+    margin: 10px 0px;
+    padding: 10px; 
+    background-color:darkslategrey;
+    opacity: 0.9;
+}
+
+.carListItem:hover{
+    background-color: #E5E7Eb;
+    color: black;
+}
+
+.carListItem h3{
+    font-size: 30px;
+}
+
+.carListItem p i{
+    font-size: 30px;
+}
+
+/* Section 3 */
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 50px 170px;
+}
+
+.s3Content{
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #E5E7Eb;
+    border-radius: 5px;
+}
+
+.s3Content button{
+    border-radius: 10px;
+    border-color: #F9FAF8;
+    width: 100px;
+    padding: 5px;
+    font-weight: 800;
+    background-color: #3882F6;
+    
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 20px 170px;
+    color:#E5E7Eb;
+}
